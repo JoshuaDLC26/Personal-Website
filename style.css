@@ -1,0 +1,66 @@
+img{
+    width: 200px;
+}
+
+body{
+  background: rgb(20, 35, 78);
+}
+.images{
+    display: flex;
+    flex-direction: column;
+
+}
+#Homepage img{
+    border: solid gold 5px;
+}
+#navBar{
+    display: flex;
+    justify-content: space-evenly;
+    border: solid black 4px;
+}
+p{
+    color: wheat;
+}
+#hobbies{
+    border:solid white 10px;
+    background: rgb(0, 66, 128);
+    color: honeydew;
+    font-size: 30px;
+    font-family: fantasy;
+}
+#hobbies img{
+    border: solid purple 5px;
+    border-radius: 3px;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    background-color: rgb(20, 35, 83);
+    color: white;
+    font-size: large;
+}
+@media(max-width:600px) {
+    img {
+        width:30% ;
+    }
+p {font-size: 30%;
+}
+a {
+    font-size: 30%;
+}
+h1 {
+    font-size: 60%;
+}
+ol {
+    font-size: 60%
+}
+ h3 {
+     font-size: 50%;
+ }
+ h4 {
+     font-size: 25%;
+ }
+}
